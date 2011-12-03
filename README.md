@@ -4,11 +4,11 @@ I was doing the ErlangDC excercises and like a true rubyist I started by setting
 
 ## Usage
 
+Live updates:
+
     bundle exec guard
 
-If you touch/change any erl file it will compile the libraries then run `main.erl` which runs the test suite.
+Manual run:
 
-Manually:
-
-    erlc src/*.erl && escript main.erl
+    bundle exec rake
 

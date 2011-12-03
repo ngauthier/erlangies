@@ -10,6 +10,7 @@ GEM
     guard-shell (0.1.1)
       guard (>= 0.2.0)
     libnotify (0.5.9)
+    rake (0.9.2.2)
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
     thor (0.14.6)
@@ -22,4 +23,5 @@ DEPENDENCIES
   guard-bundler
   guard-shell
   libnotify
+  rake
   rb-inotify
