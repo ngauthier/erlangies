@@ -7,6 +7,6 @@ No more live watching of tests, since I'm on `make` now.
 
 ## Usage
 
-  make test
+    make test
 
 It doesn't actually run, it's just some libs with tests.
