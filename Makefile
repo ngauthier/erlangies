@@ -9,4 +9,4 @@ test: all
 clean:
 	@$(REBAR) clean
 live:
-	inotifywait -mqr -e close_write src/ test/ | while read line; do clear; make test; done
+	while inotifywait -qr -e close_write src test; do make test; done
