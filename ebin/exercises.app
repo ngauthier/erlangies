@@ -5,4 +5,4 @@
               {applications,[kernel,stdlib]},
               {mod,{exercises_app,[]}},
               {env,[]},
-              {modules,[exercises,exercises_sup,increment,shapes,sum]}]}.
+              {modules,[exercises,exercises_sup,shapes,sum]}]}.
